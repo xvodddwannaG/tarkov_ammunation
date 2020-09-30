@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import {dataJson} from '../state/ammoObject'
 import {keyData} from '../state/keyData'
 import { Table, Button, Space  } from 'antd';
 import 'antd/dist/antd.css';
