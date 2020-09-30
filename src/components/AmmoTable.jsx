@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {dataJson} from '../state/ammoObject'
-import { Table} from 'antd';
+import {keyData} from '../state/keyData'
+import { Table, Button, Space  } from 'antd';
 import 'antd/dist/antd.css';
 
 
 export const AmmoTable = () => {
+  const [data, setData] = useState(keyData)
+  const [keysSelect, setKeysSelect] = useState([])
+  const [rowsSelect, setRowsSelect] = useState([])
+  const [buttonComprasionDisable, setButtonComprasionDisable] = useState(true)
+  const [buttonCompleteDisable, setButtonCompleteDisable] = useState(true)
 
 
   const h1Style = {
@@ -15,7 +21,7 @@ export const AmmoTable = () => {
     {
       title: 'Ammo Type',
       dataIndex: 'Ammo Type',
-      key: 'Ammo Type',
+      key: 'key',
       filters: [
         {
           text: '.45',
@@ -131,15 +137,54 @@ export const AmmoTable = () => {
   ]
 
 
+  const onSelectChange = (selectedRowKeys, selectedRows) => {
+    setKeysSelect(selectedRowKeys)
+    setRowsSelect(selectedRows)
+    if (selectedRows.length >= 2) {
+      setButtonComprasionDisable(false)
+    }
+  };
+
+
+  const rowSelection = {
+    onChange: onSelectChange,
+    hideSelectAll: true,
+    selectedRowKeys: keysSelect,
+    selectedRowsData: rowsSelect,
+  }
+
+  const clickHandler = () => {
+    const newData = rowSelection.selectedRowsData;
+    setData(newData)
+    setButtonComprasionDisable(true)
+    setButtonCompleteDisable(false)
+  }
+  
+  const clickHandlerComplete =  () => {
+    setData(keyData); 
+    setButtonCompleteDisable(true)
+    setKeysSelect([])
+  }
+
+ 
+  
+
   return(
     <>
-      <h1 style={h1Style}>Ammunations</h1>
+      <h1 style={h1Style}>Escape from Tarkov Ammunations</h1>
+      <Space style={{ marginBottom: 16, marginLeft: 20 }}>
+          <Button type="primary"  onClick={() => {clickHandler()}}  disabled={buttonComprasionDisable}>Сomparison</Button>
+          <Button danger  onClick={() => {clickHandlerComplete()}} disabled={buttonCompleteDisable}>Complete comparison</Button>
+          <Button>Clear filters and sorters</Button>
+        </Space>
       <Table  columns={columns} 
-      dataSource={dataJson} 
+      dataSource={data} 
       bordered={true} 
-      pagination={{ defaultPageSize: 130, position: ['topCenter', 'bottomCenter'] }}
+      pagination={{ defaultPageSize: 130, position: ['none', 'bottomCenter'] }}
       scroll={{ y: 600 }}
       size='middle'
+      sticky={true}
+      rowSelection={rowSelection}
       />,
     </>
   )
