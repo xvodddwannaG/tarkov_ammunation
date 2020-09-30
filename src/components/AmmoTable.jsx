@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {keyData} from '../state/keyData'
-import { Table, Button, Space  } from 'antd';
+import { Table, Button, Space, Divider, List  } from 'antd';
 import 'antd/dist/antd.css';
 
 
@@ -165,7 +165,13 @@ export const AmmoTable = () => {
     setKeysSelect([])
   }
 
- 
+  const desc = [
+    'Damage - This is how much health damage a bullet does',
+    'Pen Value - A value used to determine how well a bullet penetrates armor and how much durability damage it does to armor, the higher the better.',
+    'Armor Damage % - A modifier used in calculating durability damage, the higher the better.',
+    ' ',
+    'Frag.Chance - that fragmentation chance is currently bugged'
+  ]
   
 
   return(
@@ -184,7 +190,15 @@ export const AmmoTable = () => {
       size='middle'
       sticky={true}
       rowSelection={rowSelection}
-      />,
+      />
+      <Divider orientation="left">Description</Divider>
+      <List
+        size="small"
+        bordered
+        dataSource={desc}
+        renderItem={item => <List.Item>{item}</List.Item>}
+      />
+
     </>
   )
 }
