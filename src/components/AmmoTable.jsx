@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import {keyData} from '../state/keyData'
-import { Table, Button, Space, Divider, List  } from 'antd';
+import {keyData} from '../state/dataObject'
+import { Table, Button, Space, Divider, List, Tag  } from 'antd';
 import 'antd/dist/antd.css';
+import {InfoTable} from './InfoTable'
+import { red, volcano, gold, yellow, lime, green,} from '@ant-design/colors';
 
 
 export const AmmoTable = () => {
@@ -10,7 +12,23 @@ export const AmmoTable = () => {
   const [rowsSelect, setRowsSelect] = useState([])
   const [buttonComprasionDisable, setButtonComprasionDisable] = useState(true)
   const [buttonCompleteDisable, setButtonCompleteDisable] = useState(true)
+  const [filteredInfo, setFilteredInfo] = useState({})
+  const [sortedInfo, setSortedInfo] = useState({})
 
+
+  const handleChange = (pagination, filters, sorter) => {
+    setFilteredInfo(filters)
+    setSortedInfo(sorter)
+  }
+
+  const clearFilters = () => {
+    setFilteredInfo({})
+  };
+
+  const clearAll = () => {
+    setFilteredInfo({})
+    setSortedInfo({})
+  }
 
   const h1Style = {
     textAlign: 'center'
@@ -76,6 +94,7 @@ export const AmmoTable = () => {
         },
   
       ],
+      filteredValue: filteredInfo.key || null,
       onFilter: (value, record) => record["Ammo Type"].indexOf(value) === 0,
     },
     {
@@ -85,6 +104,7 @@ export const AmmoTable = () => {
       sorter: (a, b) => {
         return a["Damage"] - b["Damage"]
       },
+      sortOrder: sortedInfo.columnKey === 'Damage' && sortedInfo.order,
       sortDirections: ['descend'],
     },
   
@@ -95,6 +115,17 @@ export const AmmoTable = () => {
       sorter: (a, b) => {
         return a["Penetration Value"] - b["Penetration Value"]
       },
+      sortOrder: sortedInfo.columnKey === 'Penetration Value' && sortedInfo.order,
+      sortDirections: ['descend'],
+    },  
+    {
+      title: 'Armor Damage Ratio %',
+      dataIndex: 'Armor Damage Ratio %',
+      key: 'Armor Damage Ratio %',
+      sorter: (a, b) => {
+        return a["Armor Damage Ratio %"] - b["Armor Damage Ratio %"]
+      },
+      sortOrder: sortedInfo.columnKey === 'Armor Damage Ratio %' && sortedInfo.order,
       sortDirections: ['descend'],
     },
     {
@@ -104,16 +135,8 @@ export const AmmoTable = () => {
       sorter: (a, b) => {
         return a["Projectile Speed"] - b["Projectile Speed"]
       },
+      sortOrder: sortedInfo.columnKey === 'Projectile Speed' && sortedInfo.order,
       sortDirections: ['descend', 'ascend'],
-    },
-    {
-      title: 'Armor Damage Ratio %',
-      dataIndex: 'Armor Damage Ratio %',
-      key: 'Armor Damage Ratio %',
-      sorter: (a, b) => {
-        return a["Armor Damage Ratio %"] - b["Armor Damage Ratio %"]
-      },
-      sortDirections: ['descend'],
     },
     {
       title: 'Accuracy %',
@@ -122,7 +145,9 @@ export const AmmoTable = () => {
       sorter: (a, b) => {
         return a["Accuracy %"] - b["Accuracy %"]
       },
+      sortOrder: sortedInfo.columnKey === 'Accuracy %' && sortedInfo.order,
       sortDirections: ['descend', 'ascend'],
+      width: 120,
     },
     {
       title: 'Recoil %',
@@ -131,10 +156,123 @@ export const AmmoTable = () => {
       sorter: (a, b) => {
         return a["Recoil %"] - b["Accuracy %"]
       },
+      sortOrder: sortedInfo.columnKey === 'Recoil %' && sortedInfo.order,
       sortDirections: ['descend', 'ascend'],
+      width: 100,
     },
+    {
+      title: 'Armor Effectiveness vs.',
+      children: [
+        {
+          title: 'Class 1',
+          dataIndex: 'Class 1',
+          key: 'Class 1',
+          sorter: (a, b) => {
+            return a["Class 1"] - b["Class 1"]
+          },
+          sortDirections: ['descend'],
+          width: 90,
+          sortOrder: sortedInfo.columnKey === 'Class 1' && sortedInfo.order,
+          render: (text) => {
+            return getColor(text)
+          }
+        },
+        {
+          title: 'Class 2',
+          dataIndex: 'Class 2',
+          key: 'Class 2',
+          sorter: (a, b) => {
+            return a["Class 2"] - b["Class 2"]
+          },
+          sortDirections: ['descend'],
+          width: 90,
+          sortOrder: sortedInfo.columnKey === 'Class 2' && sortedInfo.order,
+          render: (text) => {
+            return getColor(text)
+          }
+        },
+        {
+          title: 'Class 3',
+          dataIndex: 'Class 3',
+          key: 'Class 3',
+          width: 90,
+          sorter: (a, b) => {
+            return a["Class 3"] - b["Class 3"]
+          },
+          sortOrder: sortedInfo.columnKey === 'Class 3' && sortedInfo.order,
+          sortDirections: ['descend'],
+          render: (text) => {
+            return getColor(text)
+          }
+        },
+        {
+          title: 'Class 4',
+          dataIndex: 'Class 4',
+          key: 'Class 4',
+          width: 90,
+          sortOrder: sortedInfo.columnKey === 'Class 4' && sortedInfo.order,
+          sorter: (a, b) => {
+            return a["Class 4"] - b["Class 4"]
+          },
+          sortDirections: ['descend'],
+          render: (text) => {
+            return getColor(text)
+          }
+        },
+        {
+          title: 'Class 5',
+          dataIndex: 'Class 5',
+          key: 'Class 5',
+          width: 90,
+          sortOrder: sortedInfo.columnKey === 'Class 5' && sortedInfo.order,
+          sorter: (a, b) => {
+            return a["Class 5"] - b["Class 5"]
+          },
+          sortDirections: ['descend'],
+          render: (text) => {
+            return getColor(text)
+          }
+        },
+        {
+          title: 'Class 6',
+          dataIndex: 'Class 6',
+          key: 'Class 6',
+          sortOrder: sortedInfo.columnKey === 'Class 6' && sortedInfo.order,
+          width: 90,
+          sorter: (a, b) => {
+            return a["Class 6"] - b["Class 6"]
+          },
+          sortDirections: ['descend'],
+          render: (text) => {
+            return getColor(text)
+          }
+        },
+      ]
+    },
+    
   ]
 
+  const getColor = (text) => {
+    let numberValue = Number(text)
+    switch(numberValue) {
+      case 6: 
+        return (<Tag color={green[5]}>{text}</Tag>);
+      case 5: 
+        return (<Tag color={green[3]}>{text}</Tag>);
+      case 4: 
+       return (<Tag color={lime[3]}>{text}</Tag>);
+      case 3: 
+        return (<Tag color={gold[4]}>{text}</Tag>);
+      case 2: 
+        return (<Tag color={red[4]}>{text}</Tag>);
+      case 1: 
+        return (<Tag color={red[7]}>{text}</Tag>);
+      case 0: 
+        return (<Tag color={red[9]}>{text}</Tag>);
+      default:
+        return (text)
+    }
+  }
 
   const onSelectChange = (selectedRowKeys, selectedRows) => {
     setKeysSelect(selectedRowKeys)
@@ -178,19 +316,24 @@ export const AmmoTable = () => {
     <>
       <h1 style={h1Style}>Escape from Tarkov Ammunations</h1>
       <Space style={{ marginBottom: 16, marginLeft: 20 }}>
-          <Button type="primary"  onClick={() => {clickHandler()}}  disabled={buttonComprasionDisable}>Сomparison</Button>
+          <Button type="primary"  onClick={() => {
+            clearFilters()
+            clickHandler()
+            }}  disabled={buttonComprasionDisable}>Сomparison</Button>
           <Button danger  onClick={() => {clickHandlerComplete()}} disabled={buttonCompleteDisable}>Complete comparison</Button>
-          <Button>Clear filters and sorters</Button>
+          <Button onClick={() => {clearAll()}}>Clear filters and sorters</Button>
         </Space>
       <Table  columns={columns} 
       dataSource={data} 
       bordered={true} 
       pagination={{ defaultPageSize: 130, position: ['none', 'bottomCenter'] }}
-      scroll={{ y: 600 }}
+      scroll={{ y: 600, x: 1184 }}
       size='middle'
       sticky={true}
       rowSelection={rowSelection}
+      onChange={handleChange}
       />
+      <Space style={{ marginBottom: 50 }}></Space>
       <Divider orientation="left">Description</Divider>
       <List
         size="small"
@@ -198,7 +341,7 @@ export const AmmoTable = () => {
         dataSource={desc}
         renderItem={item => <List.Item>{item}</List.Item>}
       />
-
+      <InfoTable />
     </>
   )
 }

@@ -7,7 +7,13 @@ export const keyData = [
    "Projectile Speed": 285,
    "Armor Damage Ratio %": 36,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 5,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 2,
@@ -17,7 +23,13 @@ export const keyData = [
    "Projectile Speed": 293,
    "Armor Damage Ratio %": 12,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 1,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 3,
@@ -27,7 +39,13 @@ export const keyData = [
    "Projectile Speed": 274,
    "Armor Damage Ratio %": 30,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 3,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 4,
@@ -37,7 +55,13 @@ export const keyData = [
    "Projectile Speed": 290,
    "Armor Damage Ratio %": 12,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 5,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 5,
@@ -47,7 +71,13 @@ export const keyData = [
    "Projectile Speed": 299,
    "Armor Damage Ratio %": 43,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 3,
+   "Class 6": 2
  },
  {
    "key": 6,
@@ -57,7 +87,13 @@ export const keyData = [
    "Projectile Speed": 818,
    "Armor Damage Ratio %": 88,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 6
  },
  {
    "key": 7,
@@ -67,7 +103,13 @@ export const keyData = [
    "Projectile Speed": 818,
    "Armor Damage Ratio %": 95,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 6
  },
  {
    "key": 8,
@@ -77,7 +119,13 @@ export const keyData = [
    "Projectile Speed": 285,
    "Armor Damage Ratio %": 60,
    "Accuracy %": 10,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 5,
+   "Class 4": 2,
+   "Class 5": 1,
+   "Class 6": 0
  },
  {
    "key": 9,
@@ -87,7 +135,13 @@ export const keyData = [
    "Projectile Speed": 290,
    "Armor Damage Ratio %": 22,
    "Accuracy %": -15,
-   "Recoil %": -12
+   "Recoil %": -12,
+   "Class 1": 6,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 10,
@@ -97,7 +151,13 @@ export const keyData = [
    "Projectile Speed": 300,
    "Armor Damage Ratio %": 57,
    "Accuracy %": 0,
-   "Recoil %": 15
+   "Recoil %": 15,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 5,
+   "Class 6": 4
  },
  {
    "key": 11,
@@ -107,7 +167,13 @@ export const keyData = [
    "Projectile Speed": 415,
    "Armor Damage Ratio %": 26,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 3,
+   "Class 2": 3,
+   "Class 3": 3,
+   "Class 4": 3,
+   "Class 5": 3,
+   "Class 6": 3
  },
  {
    "key": 12,
@@ -117,7 +183,13 @@ export const keyData = [
    "Projectile Speed": 330,
    "Armor Damage Ratio %": 15,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 3,
+   "Class 2": 3,
+   "Class 3": 3,
+   "Class 4": 3,
+   "Class 5": 3,
+   "Class 6": 3
  },
  {
    "key": 13,
@@ -127,7 +199,13 @@ export const keyData = [
    "Projectile Speed": 430,
    "Armor Damage Ratio %": 26,
    "Accuracy %": 15,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 3,
+   "Class 2": 3,
+   "Class 3": 3,
+   "Class 4": 3,
+   "Class 5": 3,
+   "Class 6": 3
  },
  {
    "key": 14,
@@ -137,7 +215,13 @@ export const keyData = [
    "Projectile Speed": 385,
    "Armor Damage Ratio %": 26,
    "Accuracy %": -15,
-   "Recoil %": 115
+   "Recoil %": 115,
+   "Class 1": 3,
+   "Class 2": 3,
+   "Class 3": 3,
+   "Class 4": 3,
+   "Class 5": 3,
+   "Class 6": 3
  },
  {
    "key": 15,
@@ -147,7 +231,13 @@ export const keyData = [
    "Projectile Speed": 415,
    "Armor Damage Ratio %": 65,
    "Accuracy %": 100,
-   "Recoil %": 15
+   "Recoil %": 15,
+   "Class 1": 6,
+   "Class 2": 5,
+   "Class 3": 2,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 16,
@@ -157,7 +247,13 @@ export const keyData = [
    "Projectile Speed": 320,
    "Armor Damage Ratio %": 26,
    "Accuracy %": -25,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 5,
+   "Class 6": 5
  },
  {
    "key": 17,
@@ -167,7 +263,13 @@ export const keyData = [
    "Projectile Speed": 410,
    "Armor Damage Ratio %": 11,
    "Accuracy %": 80,
-   "Recoil %": 35
+   "Recoil %": 35,
+   "Class 1": 0,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 18,
@@ -177,7 +279,13 @@ export const keyData = [
    "Projectile Speed": 370,
    "Armor Damage Ratio %": 55,
    "Accuracy %": 120,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 4,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 19,
@@ -187,7 +295,13 @@ export const keyData = [
    "Projectile Speed": 410,
    "Armor Damage Ratio %": 57,
    "Accuracy %": 90,
-   "Recoil %": 25
+   "Recoil %": 25,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 5,
+   "Class 4": 3,
+   "Class 5": 1,
+   "Class 6": 0
  },
  {
    "key": 20,
@@ -197,7 +311,13 @@ export const keyData = [
    "Projectile Speed": 510,
    "Armor Damage Ratio %": 65,
    "Accuracy %": 125,
-   "Recoil %": 50
+   "Recoil %": 50,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 4,
+   "Class 6": 3
  },
  {
    "key": 21,
@@ -207,7 +327,13 @@ export const keyData = [
    "Projectile Speed": 480,
    "Armor Damage Ratio %": 50,
    "Accuracy %": 115,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 2,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 22,
@@ -217,7 +343,13 @@ export const keyData = [
    "Projectile Speed": 390,
    "Armor Damage Ratio %": 48,
    "Accuracy %": 80,
-   "Recoil %": 20
+   "Recoil %": 20,
+   "Class 1": 6,
+   "Class 2": 2,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 23,
@@ -227,7 +359,13 @@ export const keyData = [
    "Projectile Speed": 442,
    "Armor Damage Ratio %": 46,
    "Accuracy %": 150,
-   "Recoil %": 10
+   "Recoil %": 10,
+   "Class 1": 6,
+   "Class 2": 3,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 24,
@@ -237,7 +375,13 @@ export const keyData = [
    "Projectile Speed": 410,
    "Armor Damage Ratio %": 40,
    "Accuracy %": 90,
-   "Recoil %": -15
+   "Recoil %": -15,
+   "Class 1": 6,
+   "Class 2": 5,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 25,
@@ -247,7 +391,13 @@ export const keyData = [
    "Projectile Speed": 430,
    "Armor Damage Ratio %": 50,
    "Accuracy %": 95,
-   "Recoil %": -10
+   "Recoil %": -10,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 2,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 26,
@@ -257,7 +407,13 @@ export const keyData = [
    "Projectile Speed": 594,
    "Armor Damage Ratio %": 12,
    "Accuracy %": 140,
-   "Recoil %": -15
+   "Recoil %": -15,
+   "Class 1": 0,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 27,
@@ -267,7 +423,13 @@ export const keyData = [
    "Projectile Speed": 430,
    "Armor Damage Ratio %": 14,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 3,
+   "Class 2": 3,
+   "Class 3": 3,
+   "Class 4": 3,
+   "Class 5": 3,
+   "Class 6": 3
  },
  {
    "key": 28,
@@ -277,7 +439,13 @@ export const keyData = [
    "Projectile Speed": 340,
    "Armor Damage Ratio %": 12,
    "Accuracy %": -10,
-   "Recoil %": 10
+   "Recoil %": 10,
+   "Class 1": 3,
+   "Class 2": 3,
+   "Class 3": 3,
+   "Class 4": 3,
+   "Class 5": 3,
+   "Class 6": 3
  },
  {
    "key": 29,
@@ -287,7 +455,13 @@ export const keyData = [
    "Projectile Speed": 410,
    "Armor Damage Ratio %": 13,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 3,
+   "Class 2": 3,
+   "Class 3": 3,
+   "Class 4": 3,
+   "Class 5": 3,
+   "Class 6": 3
  },
  {
    "key": 30,
@@ -297,7 +471,13 @@ export const keyData = [
    "Projectile Speed": 475,
    "Armor Damage Ratio %": 13,
    "Accuracy %": 0,
-   "Recoil %": 15
+   "Recoil %": 15,
+   "Class 1": 3,
+   "Class 2": 3,
+   "Class 3": 3,
+   "Class 4": 3,
+   "Class 5": 3,
+   "Class 6": 3
  },
  {
    "key": 31,
@@ -307,7 +487,13 @@ export const keyData = [
    "Projectile Speed": 405,
    "Armor Damage Ratio %": 13,
    "Accuracy %": 115,
-   "Recoil %": 30
+   "Recoil %": 30,
+   "Class 1": 1,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 32,
@@ -317,7 +503,13 @@ export const keyData = [
    "Projectile Speed": 425,
    "Armor Damage Ratio %": 35,
    "Accuracy %": 90,
-   "Recoil %": -15
+   "Recoil %": -15,
+   "Class 1": 6,
+   "Class 2": 2,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 33,
@@ -327,7 +519,13 @@ export const keyData = [
    "Projectile Speed": 445,
    "Armor Damage Ratio %": 40,
    "Accuracy %": 95,
-   "Recoil %": -10
+   "Recoil %": -10,
+   "Class 1": 6,
+   "Class 2": 5,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 34,
@@ -337,7 +535,13 @@ export const keyData = [
    "Projectile Speed": 415,
    "Armor Damage Ratio %": 42,
    "Accuracy %": 100,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 5,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 35,
@@ -347,7 +551,13 @@ export const keyData = [
    "Projectile Speed": 185,
    "Armor Damage Ratio %": 95,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 0,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 36,
@@ -357,7 +567,13 @@ export const keyData = [
    "Projectile Speed": 770,
    "Armor Damage Ratio %": 40,
    "Accuracy %": -10,
-   "Recoil %": -15
+   "Recoil %": -15,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 3,
+   "Class 5": 1,
+   "Class 6": 0
  },
  {
    "key": 37,
@@ -367,7 +583,13 @@ export const keyData = [
    "Projectile Speed": 580,
    "Armor Damage Ratio %": 48,
    "Accuracy %": 0,
-   "Recoil %": 10
+   "Recoil %": 10,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 4,
+   "Class 4": 1,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 38,
@@ -377,7 +599,13 @@ export const keyData = [
    "Projectile Speed": 550,
    "Armor Damage Ratio %": 38,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 3,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 39,
@@ -387,7 +615,13 @@ export const keyData = [
    "Projectile Speed": 0,
    "Armor Damage Ratio %": 0,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 5,
+   "Class 6": 4
  },
  {
    "key": 40,
@@ -397,7 +631,13 @@ export const keyData = [
    "Projectile Speed": 690,
    "Armor Damage Ratio %": 39,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 2,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 41,
@@ -407,7 +647,13 @@ export const keyData = [
    "Projectile Speed": 680,
    "Armor Damage Ratio %": 46,
    "Accuracy %": 0,
-   "Recoil %": 10
+   "Recoil %": 10,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 5
  },
  {
    "key": 42,
@@ -417,7 +663,13 @@ export const keyData = [
    "Projectile Speed": 620,
    "Armor Damage Ratio %": 41,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 4,
+   "Class 6": 3
  },
  {
    "key": 43,
@@ -427,7 +679,13 @@ export const keyData = [
    "Projectile Speed": 290,
    "Armor Damage Ratio %": 46,
    "Accuracy %": 0,
-   "Recoil %": -20
+   "Recoil %": -20,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 3,
+   "Class 6": 2
  },
  {
    "key": 44,
@@ -437,7 +695,13 @@ export const keyData = [
    "Projectile Speed": 905,
    "Armor Damage Ratio %": 60,
    "Accuracy %": 0,
-   "Recoil %": 15
+   "Recoil %": 15,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 6
  },
  {
    "key": 45,
@@ -447,7 +711,13 @@ export const keyData = [
    "Projectile Speed": 890,
    "Armor Damage Ratio %": 41,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 4,
+   "Class 5": 3,
+   "Class 6": 1
  },
  {
    "key": 46,
@@ -457,7 +727,13 @@ export const keyData = [
    "Projectile Speed": 830,
    "Armor Damage Ratio %": 57,
    "Accuracy %": -3,
-   "Recoil %": 10
+   "Recoil %": 10,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 5
  },
  {
    "key": 47,
@@ -467,7 +743,13 @@ export const keyData = [
    "Projectile Speed": 880,
    "Armor Damage Ratio %": 49,
    "Accuracy %": -2,
-   "Recoil %": 3
+   "Recoil %": 3,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 4,
+   "Class 6": 3
  },
  {
    "key": 48,
@@ -477,7 +759,13 @@ export const keyData = [
    "Projectile Speed": 884,
    "Armor Damage Ratio %": 30,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 5,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 49,
@@ -487,7 +775,13 @@ export const keyData = [
    "Projectile Speed": 884,
    "Armor Damage Ratio %": 20,
    "Accuracy %": 0,
-   "Recoil %": 5
+   "Recoil %": 5,
+   "Class 1": 6,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 50,
@@ -497,7 +791,13 @@ export const keyData = [
    "Projectile Speed": 890,
    "Armor Damage Ratio %": 32,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 3,
+   "Class 5": 2,
+   "Class 6": 0
  },
  {
    "key": 51,
@@ -507,7 +807,13 @@ export const keyData = [
    "Projectile Speed": 890,
    "Armor Damage Ratio %": 28,
    "Accuracy %": 0,
-   "Recoil %": -5
+   "Recoil %": -5,
+   "Class 1": 6,
+   "Class 2": 2,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 52,
@@ -517,7 +823,13 @@ export const keyData = [
    "Projectile Speed": 890,
    "Armor Damage Ratio %": 35,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 4,
+   "Class 4": 1,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 53,
@@ -527,7 +839,13 @@ export const keyData = [
    "Projectile Speed": 873,
    "Armor Damage Ratio %": 34,
    "Accuracy %": 10,
-   "Recoil %": -15
+   "Recoil %": -15,
+   "Class 1": 6,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 54,
@@ -537,7 +855,13 @@ export const keyData = [
    "Projectile Speed": 883,
    "Armor Damage Ratio %": 38,
    "Accuracy %": -5,
-   "Recoil %": -5
+   "Recoil %": -5,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 55,
@@ -547,7 +871,13 @@ export const keyData = [
    "Projectile Speed": 303,
    "Armor Damage Ratio %": 34,
    "Accuracy %": 0,
-   "Recoil %": -25
+   "Recoil %": -25,
+   "Class 1": 6,
+   "Class 2": 3,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 56,
@@ -557,7 +887,13 @@ export const keyData = [
    "Projectile Speed": 957,
    "Armor Damage Ratio %": 33,
    "Accuracy %": 10,
-   "Recoil %": -5
+   "Recoil %": -5,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 4,
+   "Class 4": 1,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 57,
@@ -567,7 +903,13 @@ export const keyData = [
    "Projectile Speed": 947,
    "Armor Damage Ratio %": 22,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 5,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 58,
@@ -577,7 +919,13 @@ export const keyData = [
    "Projectile Speed": 922,
    "Armor Damage Ratio %": 37,
    "Accuracy %": -5,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 3,
+   "Class 5": 2,
+   "Class 6": 0
  },
  {
    "key": 59,
@@ -587,7 +935,13 @@ export const keyData = [
    "Projectile Speed": 945,
    "Armor Damage Ratio %": 52,
    "Accuracy %": -10,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 5,
+   "Class 6": 4
  },
  {
    "key": 60,
@@ -597,7 +951,13 @@ export const keyData = [
    "Projectile Speed": 874,
    "Armor Damage Ratio %": 54,
    "Accuracy %": -5,
-   "Recoil %": -2
+   "Recoil %": -2,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 3,
+   "Class 4": 1,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 61,
@@ -607,7 +967,13 @@ export const keyData = [
    "Projectile Speed": 940,
    "Armor Damage Ratio %": 52,
    "Accuracy %": -2,
-   "Recoil %": 4
+   "Recoil %": 4,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 4,
+   "Class 6": 3
  },
  {
    "key": 62,
@@ -617,7 +983,13 @@ export const keyData = [
    "Projectile Speed": 1013,
    "Armor Damage Ratio %": 58,
    "Accuracy %": 0,
-   "Recoil %": 8
+   "Recoil %": 8,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 5
  },
  {
    "key": 63,
@@ -627,7 +999,13 @@ export const keyData = [
    "Projectile Speed": 936,
    "Armor Damage Ratio %": 32,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 4,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 64,
@@ -637,7 +1015,13 @@ export const keyData = [
    "Projectile Speed": 910,
    "Armor Damage Ratio %": 14,
    "Accuracy %": 10,
-   "Recoil %": 10
+   "Recoil %": 10,
+   "Class 1": 1,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 65,
@@ -647,7 +1031,13 @@ export const keyData = [
    "Projectile Speed": 716,
    "Armor Damage Ratio %": 41,
    "Accuracy %": -4,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 3,
+   "Class 5": 2,
+   "Class 6": 2
  },
  {
    "key": 66,
@@ -657,7 +1047,13 @@ export const keyData = [
    "Projectile Speed": 729,
    "Armor Damage Ratio %": 7,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 4,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 67,
@@ -667,7 +1063,13 @@ export const keyData = [
    "Projectile Speed": 724,
    "Armor Damage Ratio %": 14,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 68,
@@ -677,7 +1079,13 @@ export const keyData = [
    "Projectile Speed": 305,
    "Armor Damage Ratio %": 37,
    "Accuracy %": 0,
-   "Recoil %": -20
+   "Recoil %": -20,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 4,
+   "Class 5": 3,
+   "Class 6": 2
  },
  {
    "key": 69,
@@ -687,7 +1095,13 @@ export const keyData = [
    "Projectile Speed": 716,
    "Armor Damage Ratio %": 43,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 4,
+   "Class 6": 3
  },
  {
    "key": 70,
@@ -697,7 +1111,13 @@ export const keyData = [
    "Projectile Speed": 594,
    "Armor Damage Ratio %": 22,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 2,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 71,
@@ -707,7 +1127,13 @@ export const keyData = [
    "Projectile Speed": 792,
    "Armor Damage Ratio %": 15,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 72,
@@ -717,7 +1143,13 @@ export const keyData = [
    "Projectile Speed": 425,
    "Armor Damage Ratio %": 32,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 5,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 73,
@@ -727,7 +1159,13 @@ export const keyData = [
    "Projectile Speed": 427,
    "Armor Damage Ratio %": 29,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 5,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 74,
@@ -737,7 +1175,13 @@ export const keyData = [
    "Projectile Speed": 375,
    "Armor Damage Ratio %": 28,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 3,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 75,
@@ -747,7 +1191,13 @@ export const keyData = [
    "Projectile Speed": 385,
    "Armor Damage Ratio %": 27,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 3,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 76,
@@ -757,7 +1207,13 @@ export const keyData = [
    "Projectile Speed": 430,
    "Armor Damage Ratio %": 32,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 77,
@@ -767,7 +1223,13 @@ export const keyData = [
    "Projectile Speed": 430,
    "Armor Damage Ratio %": 36,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 3,
+   "Class 4": 1,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 78,
@@ -777,7 +1239,13 @@ export const keyData = [
    "Projectile Speed": 415,
    "Armor Damage Ratio %": 34,
    "Accuracy %": -5,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 79,
@@ -787,7 +1255,13 @@ export const keyData = [
    "Projectile Speed": 730,
    "Armor Damage Ratio %": 63,
    "Accuracy %": -3,
-   "Recoil %": 5
+   "Recoil %": 5,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 5,
+   "Class 6": 4
  },
  {
    "key": 80,
@@ -797,7 +1271,13 @@ export const keyData = [
    "Projectile Speed": 754,
    "Armor Damage Ratio %": 35,
    "Accuracy %": -5,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 4,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 81,
@@ -807,7 +1287,13 @@ export const keyData = [
    "Projectile Speed": 700,
    "Armor Damage Ratio %": 52,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 4,
+   "Class 5": 3,
+   "Class 6": 2
  },
  {
    "key": 82,
@@ -817,7 +1303,13 @@ export const keyData = [
    "Projectile Speed": 720,
    "Armor Damage Ratio %": 46,
    "Accuracy %": -4,
-   "Recoil %": -6
+   "Recoil %": -6,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 3,
+   "Class 5": 1,
+   "Class 6": 0
  },
  {
    "key": 83,
@@ -827,7 +1319,13 @@ export const keyData = [
    "Projectile Speed": 300,
    "Armor Damage Ratio %": 42,
    "Accuracy %": 5,
-   "Recoil %": -30
+   "Recoil %": -30,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 5,
+   "Class 4": 3,
+   "Class 5": 1,
+   "Class 6": 0
  },
  {
    "key": 84,
@@ -837,7 +1335,13 @@ export const keyData = [
    "Projectile Speed": 840,
    "Armor Damage Ratio %": 33,
    "Accuracy %": 0,
-   "Recoil %": -3
+   "Recoil %": -3,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 2,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 85,
@@ -847,7 +1351,13 @@ export const keyData = [
    "Projectile Speed": 849,
    "Armor Damage Ratio %": 83,
    "Accuracy %": 3,
-   "Recoil %": 10
+   "Recoil %": 10,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 6
  },
  {
    "key": 86,
@@ -857,7 +1367,13 @@ export const keyData = [
    "Projectile Speed": 816,
    "Armor Damage Ratio %": 75,
    "Accuracy %": -6,
-   "Recoil %": -5
+   "Recoil %": -5,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 5
  },
  {
    "key": 87,
@@ -867,7 +1383,13 @@ export const keyData = [
    "Projectile Speed": 833,
    "Armor Damage Ratio %": 66,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 5,
+   "Class 6": 4
  },
  {
    "key": 88,
@@ -877,7 +1399,13 @@ export const keyData = [
    "Projectile Speed": 808,
    "Armor Damage Ratio %": 40,
    "Accuracy %": -8,
-   "Recoil %": -5
+   "Recoil %": -5,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 2,
+   "Class 6": 0
  },
  {
    "key": 89,
@@ -887,7 +1415,13 @@ export const keyData = [
    "Projectile Speed": 822,
    "Armor Damage Ratio %": 20,
    "Accuracy %": 10,
-   "Recoil %": -5
+   "Recoil %": -5,
+   "Class 1": 6,
+   "Class 2": 4,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 90,
@@ -897,7 +1431,13 @@ export const keyData = [
    "Projectile Speed": 0,
    "Armor Damage Ratio %": 0,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 6
  },
  {
    "key": 91,
@@ -907,7 +1447,13 @@ export const keyData = [
    "Projectile Speed": 820,
    "Armor Damage Ratio %": 87,
    "Accuracy %": -2,
-   "Recoil %": -4
+   "Recoil %": -4,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 6
  },
  {
    "key": 92,
@@ -917,7 +1463,13 @@ export const keyData = [
    "Projectile Speed": 785,
    "Armor Damage Ratio %": 88,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 6
  },
  {
    "key": 93,
@@ -927,7 +1479,13 @@ export const keyData = [
    "Projectile Speed": 800,
    "Armor Damage Ratio %": 83,
    "Accuracy %": -1,
-   "Recoil %": -5
+   "Recoil %": -5,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 4,
+   "Class 6": 3
  },
  {
    "key": 94,
@@ -937,7 +1495,13 @@ export const keyData = [
    "Projectile Speed": 875,
    "Armor Damage Ratio %": 84,
    "Accuracy %": 10,
-   "Recoil %": 8
+   "Recoil %": 8,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 5,
+   "Class 6": 4
  },
  {
    "key": 95,
@@ -947,7 +1511,13 @@ export const keyData = [
    "Projectile Speed": 865,
    "Armor Damage Ratio %": 78,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 4,
+   "Class 6": 3
  },
  {
    "key": 96,
@@ -957,7 +1527,13 @@ export const keyData = [
    "Projectile Speed": 875,
    "Armor Damage Ratio %": 87,
    "Accuracy %": 0,
-   "Recoil %": 10
+   "Recoil %": 10,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 6,
+   "Class 6": 6
  },
  {
    "key": 97,
@@ -967,7 +1543,13 @@ export const keyData = [
    "Projectile Speed": 325,
    "Armor Damage Ratio %": 28,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 5,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 98,
@@ -977,7 +1559,13 @@ export const keyData = [
    "Projectile Speed": 302,
    "Armor Damage Ratio %": 16,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 2,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 99,
@@ -987,7 +1575,13 @@ export const keyData = [
    "Projectile Speed": 519,
    "Armor Damage Ratio %": 30,
    "Accuracy %": 0,
-   "Recoil %": 4
+   "Recoil %": 4,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 5,
+   "Class 4": 1,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 100,
@@ -997,7 +1591,13 @@ export const keyData = [
    "Projectile Speed": 420,
    "Armor Damage Ratio %": 33,
    "Accuracy %": 0,
-   "Recoil %": 5
+   "Recoil %": 5,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 4,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 101,
@@ -1007,7 +1607,13 @@ export const keyData = [
    "Projectile Speed": 297,
    "Armor Damage Ratio %": 15,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 4,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 102,
@@ -1017,7 +1623,13 @@ export const keyData = [
    "Projectile Speed": 301,
    "Armor Damage Ratio %": 22,
    "Accuracy %": -5,
-   "Recoil %": -7
+   "Recoil %": -7,
+   "Class 1": 5,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 103,
@@ -1027,7 +1639,13 @@ export const keyData = [
    "Projectile Speed": 302,
    "Armor Damage Ratio %": 16,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 3,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 104,
@@ -1037,7 +1655,13 @@ export const keyData = [
    "Projectile Speed": 330,
    "Armor Damage Ratio %": 16,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 3,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 105,
@@ -1047,7 +1671,13 @@ export const keyData = [
    "Projectile Speed": 315,
    "Armor Damage Ratio %": 13,
    "Accuracy %": 10,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 2,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 106,
@@ -1057,7 +1687,13 @@ export const keyData = [
    "Projectile Speed": 298,
    "Armor Damage Ratio %": 26,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 107,
@@ -1067,7 +1703,13 @@ export const keyData = [
    "Projectile Speed": 280,
    "Armor Damage Ratio %": 5,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 0,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 108,
@@ -1077,7 +1719,13 @@ export const keyData = [
    "Projectile Speed": 330,
    "Armor Damage Ratio %": 26,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 2,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 109,
@@ -1087,7 +1735,13 @@ export const keyData = [
    "Projectile Speed": 420,
    "Armor Damage Ratio %": 5,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 0,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 110,
@@ -1097,7 +1751,13 @@ export const keyData = [
    "Projectile Speed": 250,
    "Armor Damage Ratio %": 2,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 0,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 111,
@@ -1107,7 +1767,13 @@ export const keyData = [
    "Projectile Speed": 392,
    "Armor Damage Ratio %": 48,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 4,
+   "Class 5": 2,
+   "Class 6": 1
  },
  {
    "key": 112,
@@ -1117,7 +1783,13 @@ export const keyData = [
    "Projectile Speed": 365,
    "Armor Damage Ratio %": 33,
    "Accuracy %": -5,
-   "Recoil %": -6
+   "Recoil %": -6,
+   "Class 1": 6,
+   "Class 2": 3,
+   "Class 3": 1,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 113,
@@ -1127,7 +1799,13 @@ export const keyData = [
    "Projectile Speed": 420,
    "Armor Damage Ratio %": 38,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 2,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 114,
@@ -1137,7 +1815,13 @@ export const keyData = [
    "Projectile Speed": 340,
    "Armor Damage Ratio %": 32,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 2,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 115,
@@ -1147,7 +1831,13 @@ export const keyData = [
    "Projectile Speed": 457,
    "Armor Damage Ratio %": 33,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 2,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 116,
@@ -1157,7 +1847,13 @@ export const keyData = [
    "Projectile Speed": 381,
    "Armor Damage Ratio %": 11,
    "Accuracy %": 0,
-   "Recoil %": 20
+   "Recoil %": 20,
+   "Class 1": 0,
+   "Class 2": 0,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 117,
@@ -1167,7 +1863,13 @@ export const keyData = [
    "Projectile Speed": 290,
    "Armor Damage Ratio %": 22,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 1,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 118,
@@ -1177,7 +1879,13 @@ export const keyData = [
    "Projectile Speed": 560,
    "Armor Damage Ratio %": 53,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 4,
+   "Class 6": 3
  },
  {
    "key": 119,
@@ -1187,7 +1895,13 @@ export const keyData = [
    "Projectile Speed": 410,
    "Armor Damage Ratio %": 46,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 4,
+   "Class 5": 3,
+   "Class 6": 2
  },
  {
    "key": 120,
@@ -1197,7 +1911,13 @@ export const keyData = [
    "Projectile Speed": 413,
    "Armor Damage Ratio %": 44,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 3,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 121,
@@ -1207,7 +1927,13 @@ export const keyData = [
    "Projectile Speed": 415,
    "Armor Damage Ratio %": 63,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 2,
+   "Class 3": 0,
+   "Class 4": 0,
+   "Class 5": 0,
+   "Class 6": 0
  },
  {
    "key": 122,
@@ -1217,7 +1943,13 @@ export const keyData = [
    "Projectile Speed": 397,
    "Armor Damage Ratio %": 47,
    "Accuracy %": -4,
-   "Recoil %": -4
+   "Recoil %": -4,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 4,
+   "Class 6": 3
  },
  {
    "key": 123,
@@ -1227,7 +1959,13 @@ export const keyData = [
    "Projectile Speed": 295,
    "Armor Damage Ratio %": 68,
    "Accuracy %": 10,
-   "Recoil %": 22
+   "Recoil %": 22,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 5,
+   "Class 6": 5
  },
  {
    "key": 124,
@@ -1237,7 +1975,13 @@ export const keyData = [
    "Projectile Speed": 290,
    "Armor Damage Ratio %": 52,
    "Accuracy %": 0,
-   "Recoil %": 0
+   "Recoil %": 0,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 5,
+   "Class 5": 3,
+   "Class 6": 2
  },
  {
    "key": 125,
@@ -1247,7 +1991,13 @@ export const keyData = [
    "Projectile Speed": 305,
    "Armor Damage Ratio %": 60,
    "Accuracy %": 0,
-   "Recoil %": 10
+   "Recoil %": 10,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 5,
+   "Class 6": 4
  },
  {
    "key": 126,
@@ -1257,6 +2007,12 @@ export const keyData = [
    "Projectile Speed": 310,
    "Armor Damage Ratio %": 56,
    "Accuracy %": 10,
-   "Recoil %": 20
+   "Recoil %": 20,
+   "Class 1": 6,
+   "Class 2": 6,
+   "Class 3": 6,
+   "Class 4": 6,
+   "Class 5": 5,
+   "Class 6": 4
  }
 ]
